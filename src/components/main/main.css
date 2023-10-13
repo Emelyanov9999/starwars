@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: Oxanium;
+}
+
+.mainClass {
+    width: 1600px;
+    height: 1354px;
+    padding: 16px 160px;
+    gap: 80px;
+    background-color: #272727;
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.content {
+    width: 1600px;
+    height: 1134px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+.divInput {
+    display: flex;
+    width: 1600px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    gap: auto;
+}
+
+.divInput_text {
+    width: 288px;
+    height: 40px;
+    flex-shrink: 0;
+    color:#ECE9E9;
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 2.16px;
+}
+
+.divInput_search {
+    display: flex;
+    width: 312px;
+    height: 40px;
+    padding: 8px;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #484848;
+    
+}
+
+.divInput_search input, .divInput_search button {
+    background-color: #48484800;
+}
+
+.divOfCards {
+    display: flex;
+    width: 1600px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.charactersCards {
+    width: 784px;
+    height: 447px;
+    flex-shrink: 0;
+}
+
+.info {
+    display: flex;
+    width: 784px;
+    height: 395px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 15px;
+}
+
+.info_name {
+    display: flex;
+    width: 784px;
+    height: 395px;
+    padding: 40px 40px 48px 372px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+
+    border-radius: 15px;
+    border: 1px solid #484848;
+    background:#272727;
+}
+
+.info_name h2 {
+    width: 143px;
+    height: 30px;
+}
+
+.info_name button {
+    display: flex;
+    width: 200px;
+    height: 48px;
+    padding: 14px 58px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 15px;
+    background: #9937EB;
+
+    color:#ECE9E9;
+
+/* 1920/H5 */
+    font-family: Oxanium;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
