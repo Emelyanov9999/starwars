@@ -7,20 +7,21 @@ import favourite from '../../img/icons/Favourite.png'
 
 const Header = () => {
   return (
-    <header className='header'>
-        <div className = 'divImg'>
-            <img className = 'logo' src={logo} alt='logo'></img>
+    <header>
+        <div class="head__logo">
+            <img src= {logo} alt=""/>
         </div>
-        <nav className='navigation'>
-            <ul>
-                <li><a className = 'navLink' href="#">Home</a></li>
-                <li><a className = 'navLink' href="#">News</a></li>
-                <li><a className = 'navLink' href="#">Gallery</a></li>
-                <li><a className = 'navLink' href="#">Forum</a></li>
-                <li><button><img src={favourite} alt="favourite" /></button></li>
+        <nav class="head__nav">
+            <ul class="head__ul">
+                <li><a href="">Home</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Forum</a></li>
+                <li><img src= {favourite} alt=""/></li>
             </ul>
         </nav>
     </header>
+    
   )
 }
 
