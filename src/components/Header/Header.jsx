@@ -8,6 +8,7 @@ import favourite from '../../img/icons/Favourite.png'
 const Header = () => {
   return (
     <header>
+      <div className="upper_header">
         <div class="head__logo">
             <img src= {logo} alt=""/>
         </div>
@@ -20,6 +21,14 @@ const Header = () => {
                 <li><img src= {favourite} alt=""/></li>
             </ul>
         </nav>
+      </div>
+      <div className="divButtons">
+          <p>
+            <a href="#">Home</a>
+            <span>/</span>
+            <a href="#">Characters</a>
+          </p>
+      </div>
     </header>
     
   )

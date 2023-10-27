@@ -10,4 +10,7 @@
    /*  padding: 20px; */
     /* margin-left: 40px; */
     font-family: Oxanium;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
 }

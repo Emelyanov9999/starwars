@@ -5,14 +5,40 @@
 }
 
 header {
+    margin: 0 auto;
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+   
+}
+
+.upper_header {
     width: 1600px;
     height: 88px;
     border: 1px solid #272727;
     border-radius: 15px;
     padding: 4px;
-    gap: 556px;
     display: flex;
     justify-content: center;
+    gap: 556px;
+}
+
+.divButtons {
+    width: 164px;
+    height: 16px;
+    display: flex;
+    height: 16px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.divButtons p a, .divButtons p span {
+    padding-left: 8px;
+}
+
+.divButtons span {
+    color: white;
 }
 
 .head__logo {

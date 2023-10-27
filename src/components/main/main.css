@@ -3,6 +3,7 @@
 }
 
 main {
+    margin: 0 auto;
     width: 1600px;
     height: 1134px;
     gap: 72px;
