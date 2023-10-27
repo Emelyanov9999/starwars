@@ -3,7 +3,6 @@
 }
 
 main {
-    background-color: #272727;
     width: 1600px;
     height: 1134px;
     gap: 72px;
@@ -78,7 +77,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: end;
-    
+    background-color: #484848;
+    border-radius: 15px;
 }
 
 .characterInfo__smallBlock {
@@ -133,7 +133,7 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #484848;
+    background: transparent;
 }
 
 
